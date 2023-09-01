@@ -14,6 +14,7 @@
 		4CA509A42AA2272100DAFA20 /* ChefDeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509A32AA2272100DAFA20 /* ChefDeliveryTests.swift */; };
 		4CA509AE2AA2272100DAFA20 /* ChefDeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509AD2AA2272100DAFA20 /* ChefDeliveryUITests.swift */; };
 		4CA509B02AA2272100DAFA20 /* ChefDeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509AF2AA2272100DAFA20 /* ChefDeliveryUITestsLaunchTests.swift */; };
+		4CA509BF2AA25EE100DAFA20 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509BE2AA25EE100DAFA20 /* NavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4CA509A92AA2272100DAFA20 /* ChefDeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChefDeliveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA509AD2AA2272100DAFA20 /* ChefDeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryUITests.swift; sourceTree = "<group>"; };
 		4CA509AF2AA2272100DAFA20 /* ChefDeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CA509BE2AA25EE100DAFA20 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +96,10 @@
 		4CA509912AA2271C00DAFA20 /* ChefDelivery */ = {
 			isa = PBXGroup;
 			children = (
-				4CA509922AA2271C00DAFA20 /* ChefDeliveryApp.swift */,
-				4CA509942AA2271C00DAFA20 /* ContentView.swift */,
+				4CA509BD2AA25E4A00DAFA20 /* App */,
 				4CA509962AA2272100DAFA20 /* Assets.xcassets */,
 				4CA509982AA2272100DAFA20 /* Preview Content */,
+				4CA509BC2AA25DFD00DAFA20 /* NavigationBar */,
 			);
 			path = ChefDelivery;
 			sourceTree = "<group>";
@@ -125,6 +127,23 @@
 				4CA509AF2AA2272100DAFA20 /* ChefDeliveryUITestsLaunchTests.swift */,
 			);
 			path = ChefDeliveryUITests;
+			sourceTree = "<group>";
+		};
+		4CA509BC2AA25DFD00DAFA20 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				4CA509BE2AA25EE100DAFA20 /* NavigationBar.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		4CA509BD2AA25E4A00DAFA20 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4CA509922AA2271C00DAFA20 /* ChefDeliveryApp.swift */,
+				4CA509942AA2271C00DAFA20 /* ContentView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 			files = (
 				4CA509952AA2271C00DAFA20 /* ContentView.swift in Sources */,
 				4CA509932AA2271C00DAFA20 /* ChefDeliveryApp.swift in Sources */,
+				4CA509BF2AA25EE100DAFA20 /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
