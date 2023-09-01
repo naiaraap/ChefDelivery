@@ -15,6 +15,7 @@
 		4CA509AE2AA2272100DAFA20 /* ChefDeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509AD2AA2272100DAFA20 /* ChefDeliveryUITests.swift */; };
 		4CA509B02AA2272100DAFA20 /* ChefDeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509AF2AA2272100DAFA20 /* ChefDeliveryUITestsLaunchTests.swift */; };
 		4CA509BF2AA25EE100DAFA20 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509BE2AA25EE100DAFA20 /* NavigationBar.swift */; };
+		4CA509C22AA262E800DAFA20 /* OrderTypeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509C12AA262E800DAFA20 /* OrderTypeGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		4CA509AD2AA2272100DAFA20 /* ChefDeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryUITests.swift; sourceTree = "<group>"; };
 		4CA509AF2AA2272100DAFA20 /* ChefDeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4CA509BE2AA25EE100DAFA20 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		4CA509C12AA262E800DAFA20 /* OrderTypeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				4CA509962AA2272100DAFA20 /* Assets.xcassets */,
 				4CA509982AA2272100DAFA20 /* Preview Content */,
 				4CA509BC2AA25DFD00DAFA20 /* NavigationBar */,
+				4CA509C02AA2627700DAFA20 /* GridView */,
 			);
 			path = ChefDelivery;
 			sourceTree = "<group>";
@@ -144,6 +147,14 @@
 				4CA509942AA2271C00DAFA20 /* ContentView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		4CA509C02AA2627700DAFA20 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				4CA509C12AA262E800DAFA20 /* OrderTypeGridView.swift */,
+			);
+			path = GridView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CA509952AA2271C00DAFA20 /* ContentView.swift in Sources */,
+				4CA509C22AA262E800DAFA20 /* OrderTypeGridView.swift in Sources */,
 				4CA509932AA2271C00DAFA20 /* ChefDeliveryApp.swift in Sources */,
 				4CA509BF2AA25EE100DAFA20 /* NavigationBar.swift in Sources */,
 			);
