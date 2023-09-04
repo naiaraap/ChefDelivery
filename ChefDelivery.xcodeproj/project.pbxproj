@@ -22,6 +22,7 @@
 		4CA509CC2AA62BF000DAFA20 /* CarouselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509CB2AA62BF000DAFA20 /* CarouselItemView.swift */; };
 		4CA509CE2AA62E3400DAFA20 /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509CD2AA62E3400DAFA20 /* CarouselTabView.swift */; };
 		4CA509D12AA6568000DAFA20 /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509D02AA6568000DAFA20 /* StoreItemView.swift */; };
+		4CA509D32AA659FA00DAFA20 /* StoresContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509D22AA659FA00DAFA20 /* StoresContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		4CA509CB2AA62BF000DAFA20 /* CarouselItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItemView.swift; sourceTree = "<group>"; };
 		4CA509CD2AA62E3400DAFA20 /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
 		4CA509D02AA6568000DAFA20 /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
+		4CA509D22AA659FA00DAFA20 /* StoresContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				4CA509D02AA6568000DAFA20 /* StoreItemView.swift */,
+				4CA509D22AA659FA00DAFA20 /* StoresContainerView.swift */,
 			);
 			path = StoresView;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				4CA509CC2AA62BF000DAFA20 /* CarouselItemView.swift in Sources */,
 				4CA509952AA2271C00DAFA20 /* ContentView.swift in Sources */,
 				4CA509C72AA26CE800DAFA20 /* DataSourceMock.swift in Sources */,
+				4CA509D32AA659FA00DAFA20 /* StoresContainerView.swift in Sources */,
 				4CA509C92AA623C900DAFA20 /* OrderTypeView.swift in Sources */,
 				4CA509D12AA6568000DAFA20 /* StoreItemView.swift in Sources */,
 				4CA509C22AA262E800DAFA20 /* OrderTypeGridView.swift in Sources */,
