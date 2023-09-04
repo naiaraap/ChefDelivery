@@ -21,7 +21,7 @@ struct NavigationBar: View {
           Image(systemName: "bell.badge")
             .font(.title3)
             .foregroundColor(.red)
-            .padding()
+            
         }
         
       }
@@ -32,6 +32,6 @@ struct NavigationBar_Previews: PreviewProvider {
     static var previews: some View {
         NavigationBar()
         .previewLayout(.sizeThatFits)
-        
+        .padding()
     }
 }

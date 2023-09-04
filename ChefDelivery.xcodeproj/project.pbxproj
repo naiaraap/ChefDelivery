@@ -16,6 +16,9 @@
 		4CA509B02AA2272100DAFA20 /* ChefDeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509AF2AA2272100DAFA20 /* ChefDeliveryUITestsLaunchTests.swift */; };
 		4CA509BF2AA25EE100DAFA20 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509BE2AA25EE100DAFA20 /* NavigationBar.swift */; };
 		4CA509C22AA262E800DAFA20 /* OrderTypeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509C12AA262E800DAFA20 /* OrderTypeGridView.swift */; };
+		4CA509C52AA26BD400DAFA20 /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509C42AA26BD400DAFA20 /* OrderType.swift */; };
+		4CA509C72AA26CE800DAFA20 /* DataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509C62AA26CE800DAFA20 /* DataSourceMock.swift */; };
+		4CA509C92AA623C900DAFA20 /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509C82AA623C900DAFA20 /* OrderTypeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		4CA509AF2AA2272100DAFA20 /* ChefDeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4CA509BE2AA25EE100DAFA20 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		4CA509C12AA262E800DAFA20 /* OrderTypeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridView.swift; sourceTree = "<group>"; };
+		4CA509C42AA26BD400DAFA20 /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
+		4CA509C62AA26CE800DAFA20 /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
+		4CA509C82AA623C900DAFA20 /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,7 @@
 		4CA509912AA2271C00DAFA20 /* ChefDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				4CA509C32AA26B8400DAFA20 /* Model */,
 				4CA509BD2AA25E4A00DAFA20 /* App */,
 				4CA509962AA2272100DAFA20 /* Assets.xcassets */,
 				4CA509982AA2272100DAFA20 /* Preview Content */,
@@ -153,8 +160,18 @@
 			isa = PBXGroup;
 			children = (
 				4CA509C12AA262E800DAFA20 /* OrderTypeGridView.swift */,
+				4CA509C82AA623C900DAFA20 /* OrderTypeView.swift */,
 			);
 			path = GridView;
+			sourceTree = "<group>";
+		};
+		4CA509C32AA26B8400DAFA20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CA509C42AA26BD400DAFA20 /* OrderType.swift */,
+				4CA509C62AA26CE800DAFA20 /* DataSourceMock.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +304,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA509C52AA26BD400DAFA20 /* OrderType.swift in Sources */,
 				4CA509952AA2271C00DAFA20 /* ContentView.swift in Sources */,
+				4CA509C72AA26CE800DAFA20 /* DataSourceMock.swift in Sources */,
+				4CA509C92AA623C900DAFA20 /* OrderTypeView.swift in Sources */,
 				4CA509C22AA262E800DAFA20 /* OrderTypeGridView.swift in Sources */,
 				4CA509932AA2271C00DAFA20 /* ChefDeliveryApp.swift in Sources */,
 				4CA509BF2AA25EE100DAFA20 /* NavigationBar.swift in Sources */,
