@@ -23,6 +23,7 @@
 		4CA509CE2AA62E3400DAFA20 /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509CD2AA62E3400DAFA20 /* CarouselTabView.swift */; };
 		4CA509D12AA6568000DAFA20 /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509D02AA6568000DAFA20 /* StoreItemView.swift */; };
 		4CA509D32AA659FA00DAFA20 /* StoresContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509D22AA659FA00DAFA20 /* StoresContainerView.swift */; };
+		4CA93ADE2AA7A0A400DE79CC /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA93ADD2AA7A0A400DE79CC /* StoreDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		4CA509CD2AA62E3400DAFA20 /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
 		4CA509D02AA6568000DAFA20 /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
 		4CA509D22AA659FA00DAFA20 /* StoresContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresContainerView.swift; sourceTree = "<group>"; };
+		4CA93ADD2AA7A0A400DE79CC /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 			children = (
 				4CA509D02AA6568000DAFA20 /* StoreItemView.swift */,
 				4CA509D22AA659FA00DAFA20 /* StoresContainerView.swift */,
+				4CA93ADD2AA7A0A400DE79CC /* StoreDetailView.swift */,
 			);
 			path = StoresView;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				4CA509D32AA659FA00DAFA20 /* StoresContainerView.swift in Sources */,
 				4CA509C92AA623C900DAFA20 /* OrderTypeView.swift in Sources */,
 				4CA509D12AA6568000DAFA20 /* StoreItemView.swift in Sources */,
+				4CA93ADE2AA7A0A400DE79CC /* StoreDetailView.swift in Sources */,
 				4CA509C22AA262E800DAFA20 /* OrderTypeGridView.swift in Sources */,
 				4CA509932AA2271C00DAFA20 /* ChefDeliveryApp.swift in Sources */,
 				4CA509BF2AA25EE100DAFA20 /* NavigationBar.swift in Sources */,
