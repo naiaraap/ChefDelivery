@@ -24,6 +24,8 @@
 		4CA509D12AA6568000DAFA20 /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509D02AA6568000DAFA20 /* StoreItemView.swift */; };
 		4CA509D32AA659FA00DAFA20 /* StoresContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509D22AA659FA00DAFA20 /* StoresContainerView.swift */; };
 		4CA93ADE2AA7A0A400DE79CC /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA93ADD2AA7A0A400DE79CC /* StoreDetailView.swift */; };
+		4CA93AE02AA7C7F100DE79CC /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA93ADF2AA7C7F100DE79CC /* StoreType.swift */; };
+		4CA93AE22AA7CF6000DE79CC /* ProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA93AE12AA7CF6000DE79CC /* ProductType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		4CA509D02AA6568000DAFA20 /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
 		4CA509D22AA659FA00DAFA20 /* StoresContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresContainerView.swift; sourceTree = "<group>"; };
 		4CA93ADD2AA7A0A400DE79CC /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
+		4CA93ADF2AA7C7F100DE79CC /* StoreType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreType.swift; sourceTree = "<group>"; };
+		4CA93AE12AA7CF6000DE79CC /* ProductType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +186,8 @@
 			children = (
 				4CA509C42AA26BD400DAFA20 /* OrderType.swift */,
 				4CA509C62AA26CE800DAFA20 /* DataSourceMock.swift */,
+				4CA93ADF2AA7C7F100DE79CC /* StoreType.swift */,
+				4CA93AE12AA7CF6000DE79CC /* ProductType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -336,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CA509C52AA26BD400DAFA20 /* OrderType.swift in Sources */,
+				4CA93AE22AA7CF6000DE79CC /* ProductType.swift in Sources */,
 				4CA509CC2AA62BF000DAFA20 /* CarouselItemView.swift in Sources */,
 				4CA509952AA2271C00DAFA20 /* ContentView.swift in Sources */,
 				4CA509C72AA26CE800DAFA20 /* DataSourceMock.swift in Sources */,
@@ -346,6 +353,7 @@
 				4CA509C22AA262E800DAFA20 /* OrderTypeGridView.swift in Sources */,
 				4CA509932AA2271C00DAFA20 /* ChefDeliveryApp.swift in Sources */,
 				4CA509BF2AA25EE100DAFA20 /* NavigationBar.swift in Sources */,
+				4CA93AE02AA7C7F100DE79CC /* StoreType.swift in Sources */,
 				4CA509CE2AA62E3400DAFA20 /* CarouselTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
