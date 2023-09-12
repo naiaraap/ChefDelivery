@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C329EE82AB0F66C002E7309 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C329EE72AB0F66C002E7309 /* ProductDetailView.swift */; };
 		4CA509932AA2271C00DAFA20 /* ChefDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509922AA2271C00DAFA20 /* ChefDeliveryApp.swift */; };
 		4CA509952AA2271C00DAFA20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA509942AA2271C00DAFA20 /* ContentView.swift */; };
 		4CA509972AA2272100DAFA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA509962AA2272100DAFA20 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C329EE72AB0F66C002E7309 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		4CA5098F2AA2271C00DAFA20 /* ChefDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA509922AA2271C00DAFA20 /* ChefDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryApp.swift; sourceTree = "<group>"; };
 		4CA509942AA2271C00DAFA20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C329EE62AB0F57D002E7309 /* ProductView */ = {
+			isa = PBXGroup;
+			children = (
+				4C329EE72AB0F66C002E7309 /* ProductDetailView.swift */,
+			);
+			path = ProductView;
+			sourceTree = "<group>";
+		};
 		4CA509862AA2271B00DAFA20 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +128,7 @@
 		4CA509912AA2271C00DAFA20 /* ChefDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				4C329EE62AB0F57D002E7309 /* ProductView */,
 				4CA509C32AA26B8400DAFA20 /* Model */,
 				4CA509BD2AA25E4A00DAFA20 /* App */,
 				4CA509962AA2272100DAFA20 /* Assets.xcassets */,
@@ -352,6 +363,7 @@
 				4CA93ADE2AA7A0A400DE79CC /* StoreDetailView.swift in Sources */,
 				4CA509C22AA262E800DAFA20 /* OrderTypeGridView.swift in Sources */,
 				4CA509932AA2271C00DAFA20 /* ChefDeliveryApp.swift in Sources */,
+				4C329EE82AB0F66C002E7309 /* ProductDetailView.swift in Sources */,
 				4CA509BF2AA25EE100DAFA20 /* NavigationBar.swift in Sources */,
 				4CA93AE02AA7C7F100DE79CC /* StoreType.swift in Sources */,
 				4CA509CE2AA62E3400DAFA20 /* CarouselTabView.swift in Sources */,
